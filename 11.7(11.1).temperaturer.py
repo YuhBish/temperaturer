@@ -1,17 +1,5 @@
 name = input("Vad heter filen? ")
-openfile = open(name, 'r')
-for rad in openfile:
+f = open(name, 'r')
+for rad in f:
     print(rad, end="")
-openfile.close()
-
-
-
-
-
-
-
-
-
-
-
-
+f.close()
